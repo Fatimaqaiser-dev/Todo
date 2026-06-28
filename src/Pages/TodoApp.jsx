@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import TodoInput from "../components/TodoInput";
-import TodoList from "../components/TodoList";
+import TodoInput from "../Components/TodoInput";
+import TodoList from "../Components/TodoList";
 
 const TodoApp = () => {
   const [task, setTask] = useState("");
